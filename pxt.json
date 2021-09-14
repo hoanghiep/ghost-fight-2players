@@ -1,0 +1,34 @@
+{
+    "name": "ghost fight - 2players",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-tilemaps": "github:microsoft/pxt-tilemaps/",
+        "arcade-premium-life": "github:jwunderl/arcade-premium-life/",
+        "pxt-characterAnimations": "github:microsoft/arcade-character-animations/",
+        "animation": "*",
+        "darts": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.5.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
